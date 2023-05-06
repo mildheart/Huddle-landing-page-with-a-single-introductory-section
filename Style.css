@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    
+   
+}
+
+body{
+    background: hsl(257, 40%, 49%);
+    background-image: url('images/bg-desktop.svg');
+    background-image: url('images/bg-desktop.svg'),linear-gradient(hsla(257, 40%, 49%, 0.801),hsla(300, 69%, 71%, 0.703));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.main_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-image: url('images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.left_container{
+    width: 50%;
+    height: 100%;
+    background-image: url('images/illustration-mockups.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.right_container{
+    width: 50%;
+    height: 100%;
+    padding: 30px 30px;
+    color: whitesmoke;
+    font-family:'Poppins', sans-serif ;
+}
+h2{
+    font-family: inherit;
+    width: 90%;
+}
+
+.right_container p{
+    
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 15px;
+    width: 95%;
+    font-family: inherit;
+}
+
+button{
+
+    font-family: inherit;
+    margin-top: 15px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
